@@ -1,0 +1,72 @@
+.alert-message {
+    margin-top: auto;
+    width: 100%;
+  }
+  .input-banner {
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.875rem;
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 6.5em;
+    display: flex;
+    align-items: center;
+  
+    p {
+      max-width: 100%;
+    }
+  
+    &.ErrorBanner {
+      background-color: #ff5b56;
+    }
+  
+    &.InfoBanner {
+      background-color: #9d9d9d;
+    }
+  
+    &.SuccessBanner {
+      background-color: #4d5aff;
+    }
+  
+    &.WarningBanner {
+      background-color: #ffac22;
+    }
+  
+    &.multi-line {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  
+    .close.icon, small {
+      margin-left: auto;
+    }
+  
+    small {
+      text-decoration: underline;
+  
+      &.banner-multi {
+        margin-top: 1rem;
+        margin-left: 0;
+      }
+    }
+  }
+  
+  .tooltipSlide-enter {
+    opacity: 0.01;
+    transition: opacity 600ms ease-in;
+  }
+  
+  .tooltipSlide-enter.tooltipSlide-enter-active {
+    opacity: 1;
+  }
+  
+  .tooltipSlide-leave {
+    opacity: 1;
+    transition: opacity 600ms ease-in;
+  }
+  
+  .tooltipSlide-leave.tooltipSlide-leave-active {
+    opacity: 0.01;
+  }
