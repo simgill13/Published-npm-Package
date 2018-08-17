@@ -6,4 +6,4 @@ if you want to try if this works --- on your app install it and give it a go
 
 ## import {Sim, Second} from 'testcomponentnpmpackage'
 
-##  <Sim/>
+  <Sim/>
