@@ -143,10 +143,18 @@ module.exports = {
             test: /\.scss$/,
             loaders: ["style-loader", "css-loader", "sass-loader"],
             include: path.resolve(__dirname, 'src'),
-        }
+        },
+        {
+          test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2|)$/,
+          loader: 'url-loader',
+      },
      ]
    },
    externals: {
     'react': 'commonjs react' // this line is just to use the React dependency of our parent-testing-project instead of using our own React.
   }
   };
+
+
+
+

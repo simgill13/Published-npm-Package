@@ -1,6 +1,6 @@
 {
   "name": "testcomponentnpmpackage",
-  "version": "0.0.15",
+  "version": "0.0.20",
   "description": "test",
   "main": "build/index.js",
   "peerDependencies": {
@@ -8,13 +8,12 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
-    "file-loader": "^0.10.1",
     "mini-css-extract-plugin": "^0.4.1",
     "node-sass": "^4.5.3",
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^15.4.2",
     "sass-loader": "^6.0.6",
-    "semantic-ui-react": "^0.71.4"
+    "url-loader": "^1.1.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -1,0 +1,90 @@
+.input-banner {
+    background-color: var(--tooltipColor, #0083ff);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 0.8rem;
+    padding: 0.7rem 1rem;
+    margin-bottom: -2rem; /* for replacing it with hint without twitching */
+    position: relative;
+    width: 100%;
+  
+    p {
+      margin-right: 30px;
+    }
+  
+    &.ErrorBanner {
+      background-color: #ff5b56;
+    }
+  
+    &.InfoBanner {
+      background-color: #9d9d9d;
+    }
+  
+    &.SuccessBanner {
+      background-color: #4d5aff;
+    }
+  
+    &.WarningBanner {
+      background-color: #ffac22;
+    }
+  
+    article {
+      background-image: url('./close-bold.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 11px;
+      width: 11px;
+      position: absolute;
+      top: 13px;
+      right: 10px;
+    }
+  
+    small {
+      text-decoration: underline;
+  
+      &.banner-multi {
+        margin-top: 1rem;
+        display: block;
+      }
+    }
+  }
+  
+  .input-banner-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tooltipSlide-enter {
+    opacity: 0.01;
+    transition: opacity 600ms ease-in;
+  }
+  
+  .tooltipSlide-enter.tooltipSlide-enter-active {
+    opacity: 1;
+  }
+  
+  .tooltipSlide-leave {
+    opacity: 1;
+    transition: opacity 600ms ease-in;
+  }
+  
+  .tooltipSlide-leave.tooltipSlide-leave-active {
+    opacity: 0.01;
+  }
+  
+  @media (--desktop) {
+    .input-banner {
+      border-radius: 0.25rem;
+      width: 100%;
+  
+      article {
+        background-image: url('./close-bold.png');
+        background-repeat: no-repeat;
+        background-size: 0.7rem;
+        height: 0.8rem;
+        width: 0.8rem;
+      }
+    }
+  }
+  

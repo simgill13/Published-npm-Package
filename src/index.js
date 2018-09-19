@@ -1,6 +1,7 @@
 import React from 'react';
 import Second from './second';
-import Alert from './alert';
+// import Alert from './alert';
+import InputBanner from './InputBanner';
 
 
 class Sim extends React.Component {
@@ -23,4 +24,4 @@ class Sim extends React.Component {
 
 
 
-export { Sim, Second ,Alert}
+export { Sim, Second ,InputBanner}
