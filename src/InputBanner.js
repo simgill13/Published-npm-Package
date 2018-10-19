@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import CSSTransitionGroup from 'react-addons-css-transition-group';
 import PropTypes from 'prop-types';
 import './InputBanner.scss';
+import './sim.css'
 
 class InputBanner extends Component {
   state = {
