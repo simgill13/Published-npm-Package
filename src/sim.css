@@ -1,3 +1,6 @@
-.input-banner{
-    border: solid black;
+.simtest{
+    background-color: blue;
+    border:solid;
+    border-bottom-color: red
+    
 }
