@@ -13,7 +13,7 @@ class Second extends React.Component {
       }
     render() {
       return (
-        <div>This is second test</div>
+        <div>This is second test SIMMMM</div>
       );
     }
   }
