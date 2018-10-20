@@ -16,7 +16,7 @@ class Sim extends React.Component {
       }
   render() {
     return (
-      <div id='indx' className='simtest' >This is  {this.state.name}! THIS IS A COMPONENT FROM NPM MODULE</div>
+      <div id='indx' className='simtest' >This is  {this.state.name}!NPM COMPONENT</div>
     );
   }
 }
