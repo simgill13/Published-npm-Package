@@ -3,19 +3,20 @@ import Second from './second';
 // import Alert from './alert';
 import InputBanner from './InputBanner';
 import './sim.css'
+import './tim.scss'
 
 
 class Sim extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            name:'sim'
+            name:'simmmmm'
         }
        
       }
   render() {
     return (
-      <div className='simtest' >This is  {this.state.name}! THIS IS A COMPONENT FROM NPM MODULE</div>
+      <div id='indx' className='simtest' >This is  {this.state.name}! THIS IS A COMPONENT FROM NPM MODULE</div>
     );
   }
 }
