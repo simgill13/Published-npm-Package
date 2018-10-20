@@ -1,6 +1,6 @@
 {
   "name": "testcomponentnpmpackage",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "description": "test",
   "main": "build/index.js",
   "peerDependencies": {
