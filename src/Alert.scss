@@ -1,72 +1,72 @@
-// .alert-message {
-//     margin-top: auto;
-//     width: 100%;
-//   }
-//   .input-banner {
-//     color: #fff;
-//     cursor: pointer;
-//     font-size: 0.875rem;
-//     padding: 0.75rem 1.5rem;
-//     width: 100%;
-//     right: 0;
-//     bottom: 0;
-//     margin-bottom: 6.5em;
-//     display: flex;
-//     align-items: center;
+.alert-message {
+    margin-top: auto;
+    width: 100%;
+  }
+  .input-banner {
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.875rem;
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 6.5em;
+    display: flex;
+    align-items: center;
   
-//     p {
-//       max-width: 100%;
-//     }
+    p {
+      max-width: 100%;
+    }
   
-//     &.ErrorBanner {
-//       background-color: #ff5b56;
-//     }
+    &.ErrorBanner {
+      background-color: #ff5b56;
+    }
   
-//     &.InfoBanner {
-//       background-color: #9d9d9d;
-//     }
+    &.InfoBanner {
+      background-color: #9d9d9d;
+    }
   
-//     &.SuccessBanner {
-//       background-color: #4d5aff;
-//     }
+    &.SuccessBanner {
+      background-color: #4d5aff;
+    }
   
-//     &.WarningBanner {
-//       background-color: #ffac22;
-//     }
+    &.WarningBanner {
+      background-color: #ffac22;
+    }
   
-//     &.multi-line {
-//       align-items: flex-start;
-//       flex-direction: column;
-//     }
+    &.multi-line {
+      align-items: flex-start;
+      flex-direction: column;
+    }
   
-//     .close.icon, small {
-//       margin-left: auto;
-//     }
+    .close.icon, small {
+      margin-left: auto;
+    }
   
-//     small {
-//       text-decoration: underline;
+    small {
+      text-decoration: underline;
   
-//       &.banner-multi {
-//         margin-top: 1rem;
-//         margin-left: 0;
-//       }
-//     }
-//   }
+      &.banner-multi {
+        margin-top: 1rem;
+        margin-left: 0;
+      }
+    }
+  }
   
-//   .tooltipSlide-enter {
-//     opacity: 0.01;
-//     transition: opacity 600ms ease-in;
-//   }
+  .tooltipSlide-enter {
+    opacity: 0.01;
+    transition: opacity 600ms ease-in;
+  }
   
-//   .tooltipSlide-enter.tooltipSlide-enter-active {
-//     opacity: 1;
-//   }
+  .tooltipSlide-enter.tooltipSlide-enter-active {
+    opacity: 1;
+  }
   
-//   .tooltipSlide-leave {
-//     opacity: 1;
-//     transition: opacity 600ms ease-in;
-//   }
+  .tooltipSlide-leave {
+    opacity: 1;
+    transition: opacity 600ms ease-in;
+  }
   
-//   .tooltipSlide-leave.tooltipSlide-leave-active {
-//     opacity: 0.01;
-//   }
+  .tooltipSlide-leave.tooltipSlide-leave-active {
+    opacity: 0.01;
+  }

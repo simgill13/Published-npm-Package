@@ -1,6 +1,6 @@
 import React from 'react';
 import Second from './second';
-// import Alert from './alert';
+import Alert from './alert';
 import InputBanner from './InputBanner';
 import './sim.css'
 import './tim.scss'
@@ -34,4 +34,4 @@ class Sim extends React.Component {
 
 
 
-export { Sim, Second ,InputBanner}
+export { Sim, Second ,InputBanner,Alert}
