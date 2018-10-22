@@ -10,20 +10,28 @@ class Sim extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            name:'simmmmm'
+            name:':)'
         }
        
       }
   render() {
     return (
       <div>
-        <div id='indx' className='css' >
-          This is  {this.state.name}!NPM COMPONENT
+        <div>
+         Npm Library Template
         </div>
 
+        <div>
+         state {this.state.name}
+        </div>
+
+        <div id='indx' className='css' >
+          LOADING CSS FILES TEST
+        </div>
+      <br/>
         <div className='sasstest'>
-          TEST TEST TEST
-         </div> 
+            Loading SCSS  Files TEST
+        </div> 
       </div>
     );
   }
